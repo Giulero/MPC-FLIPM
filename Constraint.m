@@ -4,7 +4,6 @@ classdef Constraint
         size
         duration
     end
-    
     methods
         function this = Constraint(center, size, duration)
             this.center = center; % in m?
